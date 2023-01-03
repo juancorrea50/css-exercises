@@ -1,6 +1,8 @@
 .header  {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
   font-family: monospace;
   background: papayawhip;
 }
@@ -21,11 +23,9 @@
 
 ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px;
+  margin: 0px;
   padding: 0px;
-  gap:15px;
+  gap: 8px;
   
   /* this removes the dots on the list items*/
   list-style-type: none;
@@ -33,7 +33,6 @@ ul {
 
 
 a {
-  display: flex;
   font-size: 22px;
   background: white;
   padding: 8px;
