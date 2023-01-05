@@ -19,7 +19,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -96,7 +95,7 @@ button.cancel {
   display: flex;
   gap:16px;
   padding:16px;
-  flex-direction: row;
+
 }
 .icon{
   flex-shrink: 0;

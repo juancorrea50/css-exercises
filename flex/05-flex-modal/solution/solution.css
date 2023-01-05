@@ -77,9 +77,6 @@ button.cancel {
   /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
 }
-.icon-container{
-  display: flex;
-}
 
 .header {
   display: flex;
