@@ -26,3 +26,48 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*Produced Solution*/
+.header{
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  font-weight: 900;
+  font-size: 32px;
+}
+.container{
+  display: flex;
+}
+.sidebar{
+  flex-shrink: 0;
+  width: 300px;
+  padding: 16px;
+}
+
+.footer{
+  display:flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  gap: 32px;
+  padding:32px;
+}
+.card{
+  width:20vw;
+  height:20vw;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+ul{
+  font-size: 24px;
+  list-style: none;
+}
