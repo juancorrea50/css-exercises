@@ -17,3 +17,15 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+#transition-container>button:hover{
+  animation: 1s anim;
+}
+
+@keyframes anim{
+  from{
+    scale: 1;
+  }
+  to{
+    scale: 1.25;
+  }
+}

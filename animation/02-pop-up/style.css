@@ -40,8 +40,9 @@ button {
   opacity: 0%;
   text-align: center;
 }
+
 .popup-modal p {
-  margin-bottom: 24px
+  margin-bottom: 24px;
 }
 
 .backdrop {
@@ -55,9 +56,22 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  animation: 1s anim;
 }
 
 .backdrop.show {
   opacity: 30%;
 }
 
+@keyframes anim{
+  from{
+    opacity: 0%;
+    top: 25%;
+    justify-content: start;
+  }
+  to{
+    opacity: 100%;
+    top: 50%;
+    justify-content: center;
+  }
+}

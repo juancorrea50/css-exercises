@@ -20,6 +20,8 @@ On a smaller screen it will look like this:
 
 ![smaller](./desired-outcome-smaller.png)
 
+Note: The emojis may instead show up as one or several text symbols (e.g. &#9734;&#9794;) if you don't have an emoji-based font family installed on your operating system. This does not affect the exercise and can be ignored.
+
 ### Self Check
 - v/The header text is size 32px and weight 900.
 - v/The header text is vertically centered and 16px from the edge of the screen.
@@ -28,6 +30,12 @@ On a smaller screen it will look like this:
 - v/The sidebar and cards take up all available space above the footer.
 - v/The sidebar is 300px wide (and it doesn't shrink).
 - The sidebar links are size 24px, are white, and do not have the underline text decoration.
+<<<<<<< HEAD
 - v/The sidebar has 16px padding.
 - v/There is 32px padding around the 'cards' section.
 - v/The cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page.
+=======
+- The sidebar has 16px padding.
+- There is 48px padding around the 'cards' section.
+- The cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page.
+>>>>>>> b7044abea4eb3c9e7b1de2ef2e0b1177f8746ad5
